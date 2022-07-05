@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  /* display: flex;
+  align-items: baseline;
+  justify-content: normal; */
+  position: relative;
+  list-style-type: none;
+  display: block;
+}
+
+.button-order {
+  background-color: #2196f3;
+  border: none;
+}
