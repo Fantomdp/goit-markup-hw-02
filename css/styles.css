@@ -1,10 +1,18 @@
-body {
-  font-family: Roboto, Raleway;
-  color: var(--maket);
+:root {
+  -primary-color-text: #757575; /* gray */
+  -primary-color-back: #E5E5E5; /*white*/
+  -secondary-color-select: #2196F3 ; /*blue*/
 }
 
-ul {
-  list-style: none;
+
+body {
+  font-family: Roboto, Raleway;
+  color: var(-primary-color);
+}
+
+.nav-list {
+  list-style: none; 
+  display: flex;
 }
 
 .header {
@@ -21,15 +29,12 @@ ul {
   display: flex;
 }
 
-.nav-list {
-  display: flex;
-}
-
 .contact-list {
   display: flex;
 }
 
-.button-order {
+.btn-order {
   background-color: #2196f3;
   border: none;
+  cursor:pointer;
 }
